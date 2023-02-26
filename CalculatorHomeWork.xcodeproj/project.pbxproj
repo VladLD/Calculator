@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4519EF8529152DA50066DF14 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4519EF8429152DA50066DF14 /* Colors.xcassets */; };
 		45F96AD82911687600D44FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F96AD72911687600D44FD1 /* AppDelegate.swift */; };
 		45F96ADA2911687600D44FD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F96AD92911687600D44FD1 /* SceneDelegate.swift */; };
-		45F96ADC2911687600D44FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F96ADB2911687600D44FD1 /* ViewController.swift */; };
+		45F96ADC2911687600D44FD1 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F96ADB2911687600D44FD1 /* CalculatorViewController.swift */; };
 		45F96ADF2911687600D44FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F96ADD2911687600D44FD1 /* Main.storyboard */; };
 		45F96AE22911687600D44FD1 /* CalculatorHomeWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45F96AE02911687600D44FD1 /* CalculatorHomeWork.xcdatamodeld */; };
 		45F96AE42911687700D44FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F96AE32911687700D44FD1 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4519EF8429152DA50066DF14 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		45F96AD42911687600D44FD1 /* CalculatorHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F96AD72911687600D44FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F96AD92911687600D44FD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45F96ADB2911687600D44FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45F96ADB2911687600D44FD1 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		45F96ADE2911687600D44FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F96AE12911687600D44FD1 /* CalculatorHomeWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalculatorHomeWork.xcdatamodel; sourceTree = "<group>"; };
 		45F96AE32911687700D44FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,9 +62,10 @@
 			children = (
 				45F96AD72911687600D44FD1 /* AppDelegate.swift */,
 				45F96AD92911687600D44FD1 /* SceneDelegate.swift */,
-				45F96ADB2911687600D44FD1 /* ViewController.swift */,
+				45F96ADB2911687600D44FD1 /* CalculatorViewController.swift */,
 				45F96ADD2911687600D44FD1 /* Main.storyboard */,
 				45F96AE32911687700D44FD1 /* Assets.xcassets */,
+				4519EF8429152DA50066DF14 /* Colors.xcassets */,
 				45F96AE52911687700D44FD1 /* LaunchScreen.storyboard */,
 				45F96AE82911687700D44FD1 /* Info.plist */,
 				45F96AE02911687600D44FD1 /* CalculatorHomeWork.xcdatamodeld */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45F96AE72911687700D44FD1 /* LaunchScreen.storyboard in Resources */,
+				4519EF8529152DA50066DF14 /* Colors.xcassets in Resources */,
 				45F96AE42911687700D44FD1 /* Assets.xcassets in Resources */,
 				45F96ADF2911687600D44FD1 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F96ADC2911687600D44FD1 /* ViewController.swift in Sources */,
+				45F96ADC2911687600D44FD1 /* CalculatorViewController.swift in Sources */,
 				45F96AE22911687600D44FD1 /* CalculatorHomeWork.xcdatamodeld in Sources */,
 				45F96AD82911687600D44FD1 /* AppDelegate.swift in Sources */,
 				45F96ADA2911687600D44FD1 /* SceneDelegate.swift in Sources */,
